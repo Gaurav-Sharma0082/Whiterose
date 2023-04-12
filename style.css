@@ -63,7 +63,7 @@
 
   #cards{
    
-    height: fit-content;
+    height: 90vh;
     width: 100%;
 }
 .allcards{
@@ -194,11 +194,15 @@
 
 
   #modern{
-    background-image: url('unnamed.jpg');
+    background-image: url('img2.jpg');
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 90vh;
-    background-color: #999;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
   }
