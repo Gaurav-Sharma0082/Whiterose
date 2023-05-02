@@ -10,7 +10,6 @@ h1{
 font-family: sans-serif;
 }
 body{
-  background-color:red;
 width: 100%;  
 }
 /* body::-webkit-scrollbar-thum{
@@ -52,7 +51,7 @@ padding-left: 20px;
 #firstsection{
 
 width: 100%;
-height: 90vh;
+height: 723.200px;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -67,7 +66,7 @@ font-family: serif;
 
 #cards{
 
-height: 90vh;
+height: 723.200px;
 width: 100%;
 }
 .allcards{
@@ -204,7 +203,7 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 width: 100%;
-height: 90vh;
+height: 723.200px;
 display: flex;
 justify-content: center;
 align-items: center;
