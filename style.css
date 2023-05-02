@@ -10,6 +10,7 @@ h1{
 font-family: sans-serif;
 }
 body{
+  background-color:red;
 width: 100%;  
 }
 /* body::-webkit-scrollbar-thum{
