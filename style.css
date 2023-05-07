@@ -213,3 +213,7 @@ align-items: center;
 font-size: 150px;
 font-family: serif;
 }
+.footer_wrapper{
+  background-color: #ff0000;
+    height: 300px;
+}
