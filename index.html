@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WhiteRose</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
  
 </head>
@@ -149,6 +150,15 @@
         
     </footer>
     
-    
+    <script>
+        $(window).scroll(function(){
+  var sticky = $('.sticky')
+  var scroll = $(window).scrollTop();
+  if (scroll >= 500){
+    sticky.addClass('fixed');
+  else 
+    sticky.removeClass('fixed');
+});
+    </script>
 </body>
 </html>
