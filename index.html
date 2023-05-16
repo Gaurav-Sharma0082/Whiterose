@@ -151,13 +151,15 @@
     </footer>
     
     <script>
-        $(window).scroll(function(){
+$(window).scroll(function(){
   var sticky = $('.sticky')
   var scroll = $(window).scrollTop();
-  if (scroll >= 500){
+
+  if (scroll >= 100){
     sticky.addClass('fixed');
-  else 
+  } else {
     sticky.removeClass('fixed');
+  }
 });
     </script>
 </body>
