@@ -50,6 +50,177 @@ padding-left: 20px;
 
 /* header css end */
 
+/*-----------------------------------*\
+  #HERO
+\*-----------------------------------*/
+
+.hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-block-end: calc(var(--section-padding) / 2);
+}
+
+.hero-content { margin-block-end: 50px; }
+
+.hero-title { margin-block: 15px 30px; }
+
+.hero-text {
+  font-size: var(--fs-6);
+  line-height: 1.45;
+  margin-block-end: 40px;
+}
+
+.hero-form {
+  background-color: var(--white);
+  max-width: 95%;
+  padding: 15px;
+  border-radius: var(--radius-4);
+  box-shadow: var(--shadow-3);
+}
+
+.hero-form .email-field {
+  background-color: var(--cultured);
+  color: var(--black);
+  min-height: 70px;
+  padding-inline: 15px;
+  border-radius: var(--radius-4);
+  margin-block-end: 15px;
+}
+
+.hero-form .btn { width: 100%; }
+
+
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+/**
+ * responsive for larger than 575px screen
+ */
+
+ @media (min-width: 575px) {
+
+/**
+ * CUSTOM PROPERTY
+ */
+
+:root {
+
+  /**
+   * typography
+   */
+
+  --fs-1: 4.2rem;
+
+}
+
+
+
+/**
+ * REUSED STYLE
+ */
+
+.container {
+  max-width: 540px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+
+
+/**
+ * BLOG
+ */
+
+.blog-card .h3 { --fs-5: 2.6rem; }
+
+
+
+/**
+ * FOOTER
+ */
+
+.footer-top .container { grid-template-columns: 1fr 1fr; }
+
+}
+
+
+/**
+* responsive for larger than 768px screen
+*/
+
+@media (min-width: 768px) {
+
+/**
+ * CUSTOM PROPERTY
+ */
+
+:root {
+
+  /**
+   * typography
+   */
+
+  --fs-2: 4.8rem;
+
+}
+
+
+
+/**
+ * RESET
+ */
+
+body { font-size: 1.6rem; }
+
+
+
+/**
+ * REUSED STYLE
+ */
+
+.container { max-width: 750px; }
+
+.section-subtitle { --fs-6: 2.2rem; }
+
+
+
+/**
+ * HERO
+ */
+
+.hero { overflow: hidden; }
+
+.hero .container {
+  display: grid;
+  grid-template-columns: 1fr 0.75fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-content { margin-block-end: 0; }
+
+.hero-form { position: relative; }
+
+.hero-form .email-field {
+  margin-block-end: 0;
+  padding-inline-end: 190px;
+}
+
+.hero-form .btn {
+  width: auto;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.hero-banner { margin-inline-end: -60px; }
+
+}
+
 
 /* start first section css */
 
